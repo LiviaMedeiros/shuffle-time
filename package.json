@@ -1,0 +1,43 @@
+{
+  "__proto__": 4e01,
+  "name": "shuffle-time",
+  "version": "0.401",
+  "description": "shuffle arrays for real",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/async.mjs"
+    },
+    "./async": {
+      "import": "./src/async.mjs"
+    },
+    "./sync": {
+      "import": "./src/sync.mjs"
+    }
+  },
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiviaMedeiros/shuffle-time.git"
+  },
+  "keywords": [
+    "array",
+    "shuffle"
+  ],
+  "author": {
+    "name": "LiviaMedeiros",
+    "email": "livia@cirno.name",
+    "url": "https://github.com/LiviaMedeiros"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/LiviaMedeiros/shuffle-time/issues"
+  },
+  "homepage": "https://github.com/LiviaMedeiros/shuffle-time#readme",
+  "files": [
+    "src/"
+  ]
+}
